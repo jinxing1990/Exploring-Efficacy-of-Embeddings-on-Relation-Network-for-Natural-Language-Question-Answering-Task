@@ -1,0 +1,80 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{Bottou2011}
+\citation{Johnson2017,Santoro2017}
+\citation{Santoro2017}
+\citation{Santoro2017}
+\citation{Weston2015}
+\citation{Santoro2017}
+\citation{Cer2018}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Task}{1}{section.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}bAbI}{1}{subsection.2.1}}
+\citation{Graves2016}
+\citation{Rae2016}
+\citation{Weston2015a}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Text based QA architecture. Contexts and questions are processed with an LSTM to produce a set of context and question embedding. Objects, colored yellow, red, and blue, are constructed using LSTMs or USE. The RN considers relations across all pairs of objects, conditioned on the question embedding, and integrates all these relations to answer the question. Our alternative approach substities the LSTM with the USE to produce the embeddings.}}{2}{figure.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Two Supporting Fact Task}{2}{subsection.2.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Model}{2}{section.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Relation Network}{2}{subsection.3.1}}
+\newlabel{eq:RNform}{{1}{2}{Relation Network}{equation.3.1}{}}
+\citation{word2vec}
+\citation{pennington2014glove}
+\citation{N18-1202}
+\citation{RajpurkarZLL16}
+\citation{snli:emnlp2015}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Embedding Pipelines. Padding are done at different stages of the pipline for the different embeddings in which padding is done first for the LSTM, whereas padding is done after passing through the USE. }}{3}{figure.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Embeddings}{3}{subsection.3.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}LSTM}{3}{subsubsection.3.2.1}}
+\@writefile{toc}{\contentsline {paragraph}{LSTM Embeddings}{3}{section*.1}}
+\citation{Cer2018}
+\citation{NIPS2017_7181}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}USE}{4}{subsubsection.3.2.2}}
+\@writefile{toc}{\contentsline {paragraph}{USE Embeddings}{4}{section*.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments and Results}{4}{section.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Comparison between Different Embeddings}{4}{subsection.4.1}}
+\citation{Santoro2017}
+\newlabel{tab:diffembed}{{4.1}{5}{Comparison between Different Embeddings}{subsection.4.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Results between LSTM and USE Embeddings}}{5}{table.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Comparison between Different Sample Sizes}{5}{subsection.4.2}}
+\newlabel{tab:diffsamples}{{4.2}{5}{Comparison between Different Sample Sizes}{subsection.4.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Results between first 1000 and full 9995 training data}}{5}{table.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Comparison between RN inputs with and without Indexes}{5}{subsection.4.3}}
+\newlabel{tab:wwoindex}{{4.3}{5}{Comparison between RN inputs with and without Indexes}{subsection.4.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Results between first 1000 and full 9995 training data}}{5}{table.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Comparison between Different Modifications of the RN Module}{5}{subsection.4.4}}
+\newlabel{tab:diffmod}{{4.4}{6}{Comparison between Different Modifications of the RN Module}{subsection.4.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Results between different modifications of the RN module}}{6}{table.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion and Conclusions}{6}{section.5}}
+\bibstyle{abbrvnat}
+\bibdata{bib}
+\bibcite{Bottou2011}{{1}{2011}{{Bottou}}{{}}}
+\bibcite{snli:emnlp2015}{{2}{2015}{{Bowman et~al.}}{{Bowman, Angeli, Potts, and Manning}}}
+\bibcite{Cer2018}{{3}{2018}{{Cer et~al.}}{{Cer, Yang, Kong, Hua, Limtiaco, John, Constant, Guajardo-Cespedes, Yuan, Tar, Sung, Strope, and Kurzweil}}}
+\bibcite{Graves2016}{{4}{2016}{{Graves et~al.}}{{Graves, Wayne, Reynolds, Harley, Danihelka, Grabska-Barwi{\'{n}}ska, Colmenarejo, Grefenstette, Ramalho, Agapiou, Badia, Hermann, Zwols, Ostrovski, Cain, King, Summerfield, Blunsom, Kavukcuoglu, and Hassabis}}}
+\bibcite{Johnson2017}{{5}{2017}{{Johnson et~al.}}{{Johnson, Hariharan, Maaten, Hoffman, Fei-Fei, Zitnick, and Girshick}}}
+\bibcite{word2vec}{{6}{2013}{{Mikolov et~al.}}{{Mikolov, Chen, Corrado, and Dean}}}
+\bibcite{pennington2014glove}{{7}{2014}{{Pennington et~al.}}{{Pennington, Socher, and Manning}}}
+\bibcite{N18-1202}{{8}{2018}{{Peters et~al.}}{{Peters, Neumann, Iyyer, Gardner, Clark, Lee, and Zettlemoyer}}}
+\bibcite{Rae2016}{{9}{2016}{{Rae et~al.}}{{Rae, Hunt, Harley, Danihelka, Senior, Wayne, Graves, and Lillicrap}}}
+\bibcite{RajpurkarZLL16}{{10}{2016}{{Rajpurkar et~al.}}{{Rajpurkar, Zhang, Lopyrev, and Liang}}}
+\bibcite{Santoro2017}{{11}{2017}{{Santoro et~al.}}{{Santoro, Raposo, Barrett, Malinowski, Pascanu, Battaglia, and Lillicrap}}}
+\bibcite{NIPS2017_7181}{{12}{2017}{{Vaswani et~al.}}{{Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, and Polosukhin}}}
+\bibcite{Weston2015}{{13}{2015{}}{{Weston et~al.}}{{Weston, Bordes, Chopra, Rush, van Merri{\"{e}}nboer, Joulin, and Mikolov}}}
+\bibcite{Weston2015a}{{14}{2015{}}{{Weston et~al.}}{{Weston, Chopra, and Bordes}}}

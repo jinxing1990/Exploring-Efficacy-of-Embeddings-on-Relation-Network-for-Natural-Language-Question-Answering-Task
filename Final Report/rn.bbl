@@ -1,0 +1,146 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bottou(2011)]{Bottou2011}
+L.~Bottou.
+\newblock {From Machine Learning to Machine Reasoning}.
+\newblock \emph{Arxiv preprint arXiv11021808}, page~15, 2011.
+\newblock ISSN 0885-6125.
+\newblock \doi{10.1007/s10994-013-5335-x}.
+\newblock URL \url{http://arxiv.org/abs/1102.1808}.
+
+\bibitem[Bowman et~al.(2015)Bowman, Angeli, Potts, and Manning]{snli:emnlp2015}
+S.~R. Bowman, G.~Angeli, C.~Potts, and C.~D. Manning.
+\newblock A large annotated corpus for learning natural language inference.
+\newblock In \emph{Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}. Association for Computational
+  Linguistics, 2015.
+
+\bibitem[Cer et~al.(2018)Cer, Yang, Kong, Hua, Limtiaco, John, Constant,
+  Guajardo-Cespedes, Yuan, Tar, Sung, Strope, and Kurzweil]{Cer2018}
+D.~Cer, Y.~Yang, S.-y. Kong, N.~Hua, N.~Limtiaco, R.~S. John, N.~Constant,
+  M.~Guajardo-Cespedes, S.~Yuan, C.~Tar, Y.-H. Sung, B.~Strope, and
+  R.~Kurzweil.
+\newblock {Universal Sentence Encoder}.
+\newblock 2018.
+\newblock ISSN 1042-1629.
+\newblock \doi{10.1007/s11423-014-9358-1}.
+\newblock URL \url{http://arxiv.org/abs/1803.11175}.
+
+\bibitem[Graves et~al.(2016)Graves, Wayne, Reynolds, Harley, Danihelka,
+  Grabska-Barwi{\'{n}}ska, Colmenarejo, Grefenstette, Ramalho, Agapiou, Badia,
+  Hermann, Zwols, Ostrovski, Cain, King, Summerfield, Blunsom, Kavukcuoglu, and
+  Hassabis]{Graves2016}
+A.~Graves, G.~Wayne, M.~Reynolds, T.~Harley, I.~Danihelka,
+  A.~Grabska-Barwi{\'{n}}ska, S.~G. Colmenarejo, E.~Grefenstette, T.~Ramalho,
+  J.~Agapiou, A.~P. Badia, K.~M. Hermann, Y.~Zwols, G.~Ostrovski, A.~Cain,
+  H.~King, C.~Summerfield, P.~Blunsom, K.~Kavukcuoglu, and D.~Hassabis.
+\newblock {Hybrid computing using a neural network with dynamic external
+  memory}.
+\newblock \emph{Nature}, 538\penalty0 (7626):\penalty0 471--476, 2016.
+\newblock ISSN 14764687.
+\newblock \doi{10.1038/nature20101}.
+\newblock URL \url{http://dx.doi.org/10.1038/nature20101}.
+
+\bibitem[Johnson et~al.(2017)Johnson, Hariharan, Maaten, Hoffman, Fei-Fei,
+  Zitnick, and Girshick]{Johnson2017}
+J.~Johnson, B.~Hariharan, L.~V.~D. Maaten, J.~Hoffman, L.~Fei-Fei, C.~L.
+  Zitnick, and R.~Girshick.
+\newblock {Inferring and Executing Programs for Visual Reasoning}.
+\newblock \emph{Proceedings of the IEEE International Conference on Computer
+  Vision}, 2017-Octob:\penalty0 3008--3017, 2017.
+\newblock ISSN 15505499.
+\newblock \doi{10.1109/ICCV.2017.325}.
+
+\bibitem[Mikolov et~al.(2013)Mikolov, Chen, Corrado, and Dean]{word2vec}
+T.~Mikolov, K.~Chen, G.~Corrado, and J.~Dean.
+\newblock Efficient estimation of word representations in vector space.
+\newblock \emph{CoRR}, abs/1301.3781, 2013.
+\newblock URL
+  \url{http://dblp.uni-trier.de/db/journals/corr/corr1301.html#abs-1301-3781}.
+
+\bibitem[Pennington et~al.(2014)Pennington, Socher, and
+  Manning]{pennington2014glove}
+J.~Pennington, R.~Socher, and C.~D. Manning.
+\newblock Glove: Global vectors for word representation.
+\newblock In \emph{Empirical Methods in Natural Language Processing (EMNLP)},
+  pages 1532--1543, 2014.
+\newblock URL \url{http://www.aclweb.org/anthology/D14-1162}.
+
+\bibitem[Peters et~al.(2018)Peters, Neumann, Iyyer, Gardner, Clark, Lee, and
+  Zettlemoyer]{N18-1202}
+M.~Peters, M.~Neumann, M.~Iyyer, M.~Gardner, C.~Clark, K.~Lee, and
+  L.~Zettlemoyer.
+\newblock Deep contextualized word representations.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long Papers)}, pages 2227--2237. Association for
+  Computational Linguistics, 2018.
+\newblock \doi{10.18653/v1/N18-1202}.
+\newblock URL \url{http://aclweb.org/anthology/N18-1202}.
+
+\bibitem[Rae et~al.(2016)Rae, Hunt, Harley, Danihelka, Senior, Wayne, Graves,
+  and Lillicrap]{Rae2016}
+J.~W. Rae, J.~J. Hunt, T.~Harley, I.~Danihelka, A.~Senior, G.~Wayne, A.~Graves,
+  and T.~P. Lillicrap.
+\newblock {Scaling Memory-Augmented Neural Networks with Sparse Reads and
+  Writes}.
+\newblock \penalty0 (Nips), 2016.
+\newblock ISSN 10495258.
+\newblock \doi{10.1016/j.molimm.2007.07.004}.
+\newblock URL \url{http://arxiv.org/abs/1610.09027}.
+
+\bibitem[Rajpurkar et~al.(2016)Rajpurkar, Zhang, Lopyrev, and
+  Liang]{RajpurkarZLL16}
+P.~Rajpurkar, J.~Zhang, K.~Lopyrev, and P.~Liang.
+\newblock Squad: 100, 000+ questions for machine comprehension of text.
+\newblock \emph{CoRR}, abs/1606.05250, 2016.
+\newblock URL \url{http://arxiv.org/abs/1606.05250}.
+
+\bibitem[Santoro et~al.(2017)Santoro, Raposo, Barrett, Malinowski, Pascanu,
+  Battaglia, and Lillicrap]{Santoro2017}
+A.~Santoro, D.~Raposo, D.~G.~T. Barrett, M.~Malinowski, R.~Pascanu,
+  P.~Battaglia, and T.~Lillicrap.
+\newblock {A simple neural network module for relational reasoning}.
+\newblock pages 1--16, 2017.
+\newblock ISSN 21607516.
+\newblock \doi{10.1109/WACV.2017.108}.
+\newblock URL \url{http://arxiv.org/abs/1706.01427}.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{NIPS2017_7181}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez, L.~u.
+  Kaiser, and I.~Polosukhin.
+\newblock Attention is all you need.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, \emph{Advances in Neural
+  Information Processing Systems 30}, pages 5998--6008. Curran Associates,
+  Inc., 2017.
+\newblock URL
+  \url{http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf}.
+
+\bibitem[Weston et~al.(2015{\natexlab{a}})Weston, Bordes, Chopra, Rush, van
+  Merri{\"{e}}nboer, Joulin, and Mikolov]{Weston2015}
+J.~Weston, A.~Bordes, S.~Chopra, A.~M. Rush, B.~van Merri{\"{e}}nboer,
+  A.~Joulin, and T.~Mikolov.
+\newblock {Towards AI-Complete Question Answering: A Set of Prerequisite Toy
+  Tasks}.
+\newblock 2015{\natexlab{a}}.
+\newblock ISSN 03787753.
+\newblock \doi{10.1016/j.jpowsour.2014.09.131}.
+\newblock URL \url{http://arxiv.org/abs/1502.05698}.
+
+\bibitem[Weston et~al.(2015{\natexlab{b}})Weston, Chopra, and
+  Bordes]{Weston2015a}
+J.~Weston, S.~Chopra, and A.~Bordes.
+\newblock {Memory Networks}.
+\newblock pages 1--15, 2015{\natexlab{b}}.
+\newblock ISSN 1098-7576.
+\newblock \doi{v0}.
+\newblock URL \url{https://arxiv.org/pdf/1410.3916.pdf}.
+
+\end{thebibliography}

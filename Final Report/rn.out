@@ -1,0 +1,15 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Task}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{bAbI}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Two Supporting Fact Task}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Model}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Relation Network}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Embeddings}{section.3}% 7
+\BOOKMARK [3][-]{subsubsection.3.2.1}{LSTM}{subsection.3.2}% 8
+\BOOKMARK [3][-]{subsubsection.3.2.2}{USE}{subsection.3.2}% 9
+\BOOKMARK [1][-]{section.4}{Experiments and Results}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Comparison between Different Embeddings}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{Comparison between Different Sample Sizes}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Comparison between RN inputs with and without Indexes}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.4}{Comparison between Different Modifications of the RN Module}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Discussion and Conclusions}{}% 15
